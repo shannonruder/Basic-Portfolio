@@ -22,7 +22,7 @@ body {
 #nav_wrapper {
   width: 960px;
   height: 85px;
-  margin-left: 15em;
+  margin-left: 5em;
   margin-bottom: 10px;
   background-color: #ffffff;
   box-sizing: border; 
@@ -127,7 +127,7 @@ hr{
 
 .main_content {
   margin-top: 40px;
-  margin-left: 15em;
+  margin-left: 5em;
   padding: 26px;
   width: 960px;
   height: 500px;
@@ -137,7 +137,7 @@ hr{
 }
 .gallery_content {
   margin-top: 40px;
-  margin-left: 15em;
+  margin-left: 5em;
   padding: 30px;
   width: 960px;
   height: 787px;
@@ -246,11 +246,12 @@ button {
 }
 
 .imageLabel_box {
+  padding: 15px;
   top: 74%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 59px;
-  width: 273px;
+  height: 40px;
+  width: 250px;
   background-color: #4aaaa5;
   opacity: .9;
   position: absolute;
